@@ -1,8 +1,12 @@
 import './App.css';
+import Header from './components/Header';
 
 function App() {
   return (
-   <div className='text-red-600 text-5xl'>hello world</div>
+    <>
+    <Header/>
+   <div className='text-5xl text-red-600'>hello world</div>
+    </>
   );
 }
 
